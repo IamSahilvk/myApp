@@ -1,10 +1,17 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Poppins:wght@100;300&family=Quicksand:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@100;300&family=Quicksand:wght@700&display=swap");
+
 * {
   box-sizing: border-box;
-  margin-top: 0;
-  padding: 0;
+  margin: 0px;
+  
 }
 nav{
-  display: flex;
+  display: block;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.47);
   box-shadow: 0px 4px 14px rgba(24, 160, 251, 0.12);
@@ -16,8 +23,8 @@ nav a{
   display: block;
   text-decoration: none;
   float: left;
-  text-align: center;
-  padding: 14px 20px;
+  
+  
 }
 h2{
   font-family: 'Poppins';
@@ -27,33 +34,62 @@ font-size: 22px;
 line-height: 33px;
 color: #1B1B50;
 }
-/*nav#icon{
-float: left;
+nav a{
+  float: right;
+  padding: 10px;
+}
+nav #icon{
+ float: left;
+ 
 
-}*/
-h1#Diana{
+}
+#Diana{
 text-align: center;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-style: normal;
 font-weight: 500;
 font-size: 33px;
 line-height: 30px;
+padding: 30px;
 
 color: #1B1B50;
 
 }
+.First h3{
+  font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
 
+text-align: center;
 
-.calender{
-  right: 0px;
-  left: 0px;
-  width: 100%;
-
+color: #1B1B50;
+  padding: 10px;
 }
+
+.First p.Di{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+
+font-size: 14px;
+line-height: 179%;
+
+color: #000000;
+
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+
 
 .First{
   text-align: center;
-  background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%);
+  background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%); 
+  padding: 27px;
 
 }
 
@@ -66,9 +102,48 @@ font-size: 33px;
 line-height: 134.8%;
 
 text-align: center;
+padding: 15px;
 
 color: #1B1B50;
 }
+#OurP{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+
+color: #1B1B50;
+padding: 25px;
+}
+.First div{
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 179%;
+text-align: center;
+color: #1B1B50;
+padding: 15px;
+}
+
+.First p{
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 179%;
+text-align: center;
+color: #1B1B50;
+padding: 20px;
+}
+.First img{
+  padding: 15px; 
+}
+
+
+
+
 .second{
   background: linear-gradient(165.41deg, #D99EC9 0%, rgba(246, 240, 196, 0) 100%);
 
@@ -82,6 +157,9 @@ line-height: 180%;
 color: #1B1B50;
 
 }
+
+  
+
 .third{
 
 
@@ -89,16 +167,76 @@ color: #1B1B50;
 background: #DCE9E9;
 
 }
-.fourth{
-  height: 1000px;
-   background: linear-gradient(180deg, #DCE9E9 11.21%, rgba(220, 233, 233, 0.15) 42.17%), url(../public/image/pexels-karolina-grabowska-4041391.jpg); 
+/*Flower background*/
+/*.fourth{
+  height: 500px;
+  background: linear-gradient(180deg, #DCE9E9 11.21%, rgba(220, 233, 233, 0.15) 42.17%), url("../public/image/pexels-karolina-grabowska-4041391.jpg");
+  background-repeat: no-repeat;
+  left: 0px;
+  right: 0px;
+  width: 100%;;
   
-}
+  
+}*/
+
 .fifth{
   background: linear-gradient(180deg, #FFF6FB 0%, #FFFFFF 100%);
 }
 .sixth{
   background: linear-gradient(176.88deg, #F3B8BC 2.58%, #FFDAD4 93.07%);
 }
+.calender{
+  right: 0px;
+  left: 0px;
+  width: 100%;
+
+}
+.seventh{
+  background: linear-gradient(270deg, #DADAE4 0.25%, #EEEEF0 24.33%, #F8F8F8 52.08%, #FEFEFE 100%);
+}
+
+.doctor{
+  right: 0px;
+  left: 0px;
+  width: 100%;
+}
+.eighth{
+  background: #F66E6E;
+}
+
+.medicine{
+  background: rgba(246, 240, 196, 0.25);
+  height: 387px;
+  width: 290px;
+}
+
+.ninth{
+  background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 100%);
+  font-family: 'Reptile';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 134.8%;
 
 
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.foot{
+  background: #050506;
+}
+.foot p{
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 206.5%;
+
+color: #FFFFFF;
+}
+
+.span{
+  background: #FFFFFF;
+}
+ 
