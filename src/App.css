@@ -1,3 +1,104 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin-top: 0;
+  padding: 0;
 }
+nav{
+  display: flex;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.47);
+  box-shadow: 0px 4px 14px rgba(24, 160, 251, 0.12);
+  backdrop-filter: blur(4px);
+
+  border-radius: 0px 0px 14px 14px;
+}
+nav a{
+  display: block;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  padding: 14px 20px;
+}
+h2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+color: #1B1B50;
+}
+/*nav#icon{
+float: left;
+
+}*/
+h1#Diana{
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 30px;
+
+color: #1B1B50;
+
+}
+
+
+.calender{
+  right: 0px;
+  left: 0px;
+  width: 100%;
+
+}
+
+.First{
+  text-align: center;
+  background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%);
+
+}
+
+.First h1{
+
+font-family: 'Reptile';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 134.8%;
+
+text-align: center;
+
+color: #1B1B50;
+}
+.second{
+  background: linear-gradient(165.41deg, #D99EC9 0%, rgba(246, 240, 196, 0) 100%);
+
+}
+.Tsecond{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 180%;
+color: #1B1B50;
+
+}
+.third{
+
+
+
+background: #DCE9E9;
+
+}
+.fourth{
+  height: 1000px;
+   background: linear-gradient(180deg, #DCE9E9 11.21%, rgba(220, 233, 233, 0.15) 42.17%), url(../public/image/pexels-karolina-grabowska-4041391.jpg); 
+  
+}
+.fifth{
+  background: linear-gradient(180deg, #FFF6FB 0%, #FFFFFF 100%);
+}
+.sixth{
+  background: linear-gradient(176.88deg, #F3B8BC 2.58%, #FFDAD4 93.07%);
+}
+
+
