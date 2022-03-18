@@ -51,7 +51,29 @@ function App() {
                                 story.
                             </h1>
                         </section>
-                        
+            
+                        <footer class="foot">
+     <span class="SM"> <a href=""><img src="" alt="facebook" /></a>
+      <a href=""><img src="" alt="twitter" /></a>
+    </span>
+      <p>Products &gt;</p>
+
+      <p>Our Science &gt;</p>
+      <p>Vision & Mission &gt;</p>
+      <p>About Us &gt;</p>
+      <hr />
+      <form action="">
+        <p>Subscribe to our Newsletter</p>
+        <span>
+        <input type="email" value="Enter your email..." name="" id="" />
+        <div class="activate">
+        <a href=""><img src={require("./image/outline_email_black_24dp.png")} alt="DM" /> Activate</a>      
+        </div>
+      </span>
+    
+      </form>
+    </footer>
+
      
      
 
