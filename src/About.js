@@ -7,13 +7,10 @@ export default function About()
         <>
         <nav>
         <a href=""
-          ><img
-            src="../public/image/outline_notifications_black_24dp.png"
-            alt="notification"
-        /></a>
+          ><img src={require("./image/outline_notifications_black_24dp.png").default} alt="notification" /></a>
         <a href=""
           ><img
-            src="../public/image/outline_shopping_cart_black_24dp.png"
+            src="./image/outline_shopping_cart_black_24dp.png"
             width="24px"
             height="24px"
             alt="Cart"

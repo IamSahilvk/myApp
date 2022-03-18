@@ -26,6 +26,17 @@ nav a{
   
   
 }
+h1{
+  font-family: 'Noto Serif Display';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 134.8%;
+padding: 15px;
+
+
+color: rgba(0, 0, 0, 0.8);
+}
 h2{
   font-family: 'Poppins';
 font-style: normal;
@@ -93,19 +104,7 @@ color: #000000;
 
 }
 
-.First h1{
 
-font-family: 'Reptile';
-font-style: normal;
-font-weight: 500;
-font-size: 33px;
-line-height: 134.8%;
-
-text-align: center;
-padding: 15px;
-
-color: #1B1B50;
-}
 #OurP{
   font-family: 'Poppins';
 font-style: normal;
@@ -148,15 +147,34 @@ padding: 20px;
   background: linear-gradient(165.41deg, #D99EC9 0%, rgba(246, 240, 196, 0) 100%);
 
 }
+.second h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+  
+  
+  color: #1B1B50;
+  padding: 30px;
+  
+}
+
 .Tsecond{
+  padding: 20px;
+}
+
+.second p,ul{
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
 line-height: 180%;
 color: #1B1B50;
-
+padding-bottom: 20px;
 }
+
 
   
 
@@ -167,32 +185,145 @@ color: #1B1B50;
 background: #DCE9E9;
 
 }
-/*Flower background*/
-/*.fourth{
-  height: 500px;
-  background: linear-gradient(180deg, #DCE9E9 11.21%, rgba(220, 233, 233, 0.15) 42.17%), url("../public/image/pexels-karolina-grabowska-4041391.jpg");
-  background-repeat: no-repeat;
-  left: 0px;
-  right: 0px;
-  width: 100%;;
-  
-  
-}*/
+.third h2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
 
-.fifth{
+color: #1B1B50;
+padding: 20px;
+}
+
+.third div{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 206.5%;
+padding: 15px;
+color: rgba(0, 0, 0, 0.8);
+}
+.Button{
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  
+}
+
+ 
+.button {
+  background: linear-gradient(297.28deg, #F66E6E 67.01%, rgba(246, 110, 110, 0) 123.71%);
+  filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
+  border-radius: 70px;
+      border: none;
+      padding: 10px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 19.8605px;
+      line-height: 30px;
+      text-align: center;
+      color: #FFFFFF;
+   
+  }
+  
+
+  
+  .third p{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.8);
+
+  }
+
+
+  
+  
+
+.fourth{
   background: linear-gradient(180deg, #FFF6FB 0%, #FFFFFF 100%);
 }
-.sixth{
+.fourth p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 206.5%;
+padding: 20px;
+color: rgba(0, 0, 0, 0.8);
+}
+.Bbutton{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  
+  
+  
+  
+}
+
+
+p.bbutton{
+  box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
+  background: linear-gradient(288.62deg, #6E8CF6 42.36%, rgba(110, 213, 246, 0.93) 115.74%);
+  display: inline-block;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 19.8605px;
+line-height: 30px;
+padding: 15px 20px;
+text-align: center;
+border-radius: 70px;
+
+color: #FFFFFF;
+}
+
+.fourth img{
+  padding: 10px;
+}
+
+
+.fifth{
   background: linear-gradient(176.88deg, #F3B8BC 2.58%, #FFDAD4 93.07%);
 }
-.calender{
+.fifth p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 206.5%;
+padding: 30px;
+
+color: rgba(0, 0, 0, 0.8);
+}
+.calender,.flower{
   right: 0px;
   left: 0px;
   width: 100%;
 
 }
-.seventh{
+.sixth{
   background: linear-gradient(270deg, #DADAE4 0.25%, #EEEEF0 24.33%, #F8F8F8 52.08%, #FEFEFE 100%);
+}
+.sixth p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 206.5%;
+padding: 20px;
+
+color: rgba(0, 0, 0, 0.8);
 }
 
 .doctor{
@@ -200,24 +331,63 @@ background: #DCE9E9;
   left: 0px;
   width: 100%;
 }
-.eighth{
+.seventh{
   background: #F66E6E;
+}
+.seventh #seven{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 206.5%;
+padding: 20px;
+
+color: rgba(255, 255, 255, 0.8);
 }
 
 .medicine{
-  background: rgba(246, 240, 196, 0.25);
-  height: 387px;
-  width: 290px;
+  
+  
+  width: 100%;
+
+}
+.Bblackbutton{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background: #000000;
+  border-radius: 27px;
+
+
+  
+}
+p.blackbutton{
+  
+  display: inline-block;
+  text-align: center;
+  
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 206.5%;
+/* identical to box height, or 29px */
+
+
+color: #FFFFFF;
+
+  
+
 }
 
-.ninth{
+.eighth{
   background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 100%);
   font-family: 'Reptile';
 font-style: normal;
 font-weight: 500;
 font-size: 33px;
 line-height: 134.8%;
-
+padding: 60px;
 
 
 color: rgba(0, 0, 0, 0.8);
@@ -235,8 +405,37 @@ line-height: 206.5%;
 
 color: #FFFFFF;
 }
+.activate{
+  display: flex;
+  padding: 10px;
+  justify-content: right;
+
+}
+
+.activate a{
+  background: #D6F4FB;
+border: 1.2782px solid #E9F4FF;
+box-sizing: border-box;
+border-radius: 17.2556px;
+text-decoration: none;
+text-align: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 8.94737px;
+line-height: 206.5%;
+
+
+color: #1B1B50;
+
+
+}
 
 .span{
   background: #FFFFFF;
 }
- 
+.SM{
+  display: flex;
+  justify-content: right;
+  padding: 50px;
+}
