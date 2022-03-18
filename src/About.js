@@ -7,17 +7,17 @@ export default function About()
         <>
         <nav>
         <a href=""
-          ><img src={require("./image/outline_notifications_black_24dp.png").default} alt="notification" /></a>
+          ><img src={require("./image/outline_notifications_black_24dp.png")} alt="notification" /></a>
         <a href=""
           ><img
-            src="./image/outline_shopping_cart_black_24dp.png"
+            src={require("./image/outline_shopping_cart_black_24dp.png")}
             width="24px"
             height="24px"
             alt="Cart"
         /></a>
   
         <a id="icon" href=""
-          ><img src="../ublic/image/outline_menu_black_24dp.png" alt="icon" width="50%"
+          ><img src={require("./image/outline_menu_black_24dp.png")} alt="icon" width="50%"
         /></a>
       </nav>
       
@@ -30,6 +30,9 @@ export default function About()
             Diana empowers you to understand how your body works so you can look and
             feel your best.
           </p>
+          <hr></hr>
+          <br></br>
+
             <b> Our Philosophy</b>
           
           <h1>Sustainable wellness is a big-picture, inside out approach</h1>
@@ -54,7 +57,7 @@ export default function About()
             In-app mood and period tracking options that help you cultivate a
             deeper connection with your mind and body
           </p>
-          <img src={require("./image/outline_phone_in_talk_black_24dp.png").default} alt="phone" />
+          <img src={require("./image/outline_phone_in_talk_black_24dp.png")} alt="phone" />
   
           <p>
             In-app consultation portals that connect you with compassionate

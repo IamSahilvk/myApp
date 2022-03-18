@@ -58,7 +58,7 @@ nav #icon{
 }
 #Diana{
 text-align: center;
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: 'Noto Serif Display';
 font-style: normal;
 font-weight: 500;
 font-size: 33px;
@@ -94,6 +94,18 @@ color: #000000;
   padding: 20px;
   padding-left: 40px;
   padding-right: 40px;
+}
+.First b{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+padding: 10px;
+
+
+color: #1B1B50;
+
 }
 
 

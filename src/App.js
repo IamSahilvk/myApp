@@ -53,8 +53,8 @@ function App() {
                         </section>
             
                         <footer class="foot">
-     <span class="SM"> <a href=""><img src="" alt="facebook" /></a>
-      <a href=""><img src="" alt="twitter" /></a>
+     <span class="SM"> <a href=""><img src={require("./image/fb.png")} alt="facebook" width={25}  /></a>
+      <a href=""><img src={require("./image/twitter.png")} alt="twitter" width={25} /></a>
     </span>
       <p>Products &gt;</p>
 
